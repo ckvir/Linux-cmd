@@ -1,7 +1,6 @@
 # Linux-cmd
 ```
 /
-
     /boot (kernel,boot.b 核心,系統開機二進位檔)
     /etc  (設定檔)
     /bin  (工具)
