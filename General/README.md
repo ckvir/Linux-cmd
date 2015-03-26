@@ -21,3 +21,12 @@ alias lv="ls -F"
 
 alias ls="ls -F --color=auto"
 
+USB:
+
+mkdir /tmp/usb
+
+mount /dev/sdc /tmp/usb/
+
+cp *.sh /tmp/usb/
+
+umount /tmp/usb/
