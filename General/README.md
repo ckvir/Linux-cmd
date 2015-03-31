@@ -11,9 +11,16 @@ grep -R -n 'xxx' --include *.c ./
 ```
 
 ls -lh
+```
  - M for MB
  - K for KB
  - G for GB
+```
+
+建立捷徑
+```
+ln -s /目標 /捷徑名稱
+```
 
 建議： 
  ```
