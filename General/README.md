@@ -2,7 +2,15 @@
 搜尋:
 ```
 find -name xxx：搜尋檔案
-grep -R -n 'xxx' --include *.c ./
+
+grep -r -n 'xxx' .  
+grep -r -n 'xxx' --include *.c .   : 指定副檔名
+grep -r -n 'xxx' --exclude *.jpg . : 排除副檔名
+
+grep -r --include=*.html --include=*.php --include=*.htm "pattern" /some/path/
+grep -r --include=*.{html,php,htm} "pattern" /some/path/
+
+
 
 - -R：遞迴
 - -n：顯示行號
