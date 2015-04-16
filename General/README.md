@@ -1,4 +1,8 @@
 
+壓縮:
+http://note.drx.tw/2008/04/command.html
+
+
 搜尋:
 ```
 find -name xxx：搜尋檔案
