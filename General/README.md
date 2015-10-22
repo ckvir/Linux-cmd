@@ -9,6 +9,8 @@ find -name xxx：搜尋檔案
 
 ack --nogroup --column xxx *
 
+grep -Irn --exclude={*.pl,*.dox,*.cmd,*.lds,*.TXT,tags,README} "drivers" *
+
 grep -r -n 'xxx' .  
 grep -r -n 'xxx' --include *.c .   : 指定副檔名
 grep -r -n 'xxx' --exclude *.jpg . : 排除副檔名
